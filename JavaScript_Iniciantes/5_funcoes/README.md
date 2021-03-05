@@ -1,0 +1,11 @@
+## Anotações sobre Funções
+  - Bloco de código que pode ser reutilizado;
+  - Ela pode ou não retornar algum valor.
+  - Ao criar são passados parametros que ele deve receber.
+  - Ao utilizar são passados argumentos que ele passa para a função.
+  - Pode criar sem parametros, assim apenas executando quando abrir e fechar parenteses `executa()`.
+  - Passar apenas o nome da função retransmite a referência pra ela. 
+  - Argumentos podem ser funções, funções nativas como `AddEventListener` pedem uma função no segundo argumento
+    - elas são chamadas de CallBacks, a função que pede a callback vai executar ela após alguns códigos ou verificações serem executados.
+  - __Escopo__ fica dentro do bloco, uma função pode usar variaveis fora do contexto dela, __mas__ o contexto fora da função não pode pegar as variáveis criadas dentro da dela.
+  - __Hoisting__ assim como as variáveis o JS leva pra cima toda função criada, com a diferença que a função é levada pra cima com a funcionalidade dela junto.
