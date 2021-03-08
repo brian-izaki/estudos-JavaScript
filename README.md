@@ -22,18 +22,26 @@
 
 ## Módulos do curso
 
+*obs: existe um arquivo README para cada conceito estudado nos módulos* <br />
+
 - ### JavaScript para iniciantes
-  
-  *obs: existe um arquivo README para cada conceito estudado neste módulo* <br />
-  Foi aprendido os conceitos básicos da linguagem como: 
-  - variáveis;
-  - tipos de dados;
-  - funções;
-  - objetos;
-  - array;
-  - escopo;
+Foi aprendido os conceitos básicos da linguagem como: 
+  - Variáveis;
+  - Tipos de dados;
+  - Funções;
+  - Objetos;
+  - Array;
+  - Escopo;
 
 - ### DOM para iniciantes
+Aprendido os conceitos básicos sobre a árvore do Document Object Model como:
+  - O que é o dom
+  - Commo selecionar elementos (tags HTML) no DOM
+  - Loops com o forEach
+  - Arrow functions
+  - Modificar nome de classes CSS de um elemento
+  - Modificar atributos de um elemento
+  - Descobrir dimensões e distâncias de um elemento.
 
 - ### Objetos
 
