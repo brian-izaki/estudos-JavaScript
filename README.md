@@ -25,7 +25,7 @@
 *obs: existe um arquivo README para cada conceito estudado nos módulos* <br />
 
 - ### JavaScript para iniciantes
-Foi aprendido os conceitos básicos da linguagem como: 
+  Foi aprendido os conceitos básicos da linguagem como: 
   - Variáveis;
   - Tipos de dados;
   - Funções;
@@ -34,7 +34,7 @@ Foi aprendido os conceitos básicos da linguagem como:
   - Escopo;
 
 - ### DOM para iniciantes
-Aprendido os conceitos básicos sobre a árvore do Document Object Model como:
+  Aprendido os conceitos básicos sobre a árvore do Document Object Model como:
   - O que é o dom
   - Commo selecionar elementos (tags HTML) no DOM
   - Loops com o forEach
@@ -42,8 +42,20 @@ Aprendido os conceitos básicos sobre a árvore do Document Object Model como:
   - Modificar nome de classes CSS de um elemento
   - Modificar atributos de um elemento
   - Descobrir dimensões e distâncias de um elemento.
+  - Eventos no JS
+  - Transversing
+  - Inicio do JS no projeto (animações, efeitos ao scroll, mostrar seções ao clique do mouse)
 
 - ### Objetos
+  Visto os principais objetos que compões o JS como a propriedade prototype que está presente nos objetos, o String, Number, entre outros.
+  - Funções construtoras
+  - Prototype
+  - Objetos Native, Host e User
+  - String
+  - Number
+  - Array
+  - Functions
+  - Object
 
 - ### Efeitos no DOM
 
