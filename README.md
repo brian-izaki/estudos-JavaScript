@@ -72,3 +72,8 @@
 - ### Refatorar projeto final
 
 - ### Slide
+
+
+- Referências 
+
+- [Lista de Expressões e operadores](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
