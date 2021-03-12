@@ -73,7 +73,11 @@
 
 - ### Slide
 
+---
 
-- Referências 
+## Referências 
 
-- [Lista de Expressões e operadores](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+- Aulas do curso [JavaScript Completo ES6 da Origamid](https://www.origamid.com/curso/javascript-completo-es6/) <br />
+_obs: o JavaScript estudado é mais voltado para o front-end_ 
+
+- [Lista de Expressões e operadores MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
