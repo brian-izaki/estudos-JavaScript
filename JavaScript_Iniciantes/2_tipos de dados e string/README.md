@@ -1,4 +1,4 @@
-## Anotações sobre Tipos de dados
+## Anotações sobre [Tipos de dados]{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects}
 ---
 - ## 7 tipos primitivos:
   - String (usa aspas);
