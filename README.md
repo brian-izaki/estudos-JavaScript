@@ -58,6 +58,21 @@
   - Object
 
 - ### Efeitos no DOM
+  - Dataset
+  - Modules
+  - Modal
+  - Tooltip
+  - Dropdown Menu
+  - Event Bubble
+  - Clickoutside
+  - setTimeout e setInterval
+  - Menu Mobile
+  - Anima Números
+  - Date Object
+  - Forms
+  - Button Creator HTML e CSS
+  - Button Creator JS
+  - LocalStorage
 
 - ### JavaScript Assíncrono
 
