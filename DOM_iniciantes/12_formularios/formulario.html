@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  
+  <style>
+    label{
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin: 1rem 0 .5rem 0;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    input[type='text'], input[type='email'], textarea{
+      width: 100%;
+      box-sizing: border-box;
+      padding: .5rem;
+      font-size: 1rem;
+      margin-bottom: .5rem;
+    }
+
+    textarea {
+      height: 160px;
+    }
+
+    .invalido {
+      border-color: red;
+    }
+  </style>
+
+  <form name='contato' id="contato">
+
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" required>
+    <span class="erro"></span>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+    <span class="erro"></span>
+    
+    <label for="textarea">Mensagem</label>
+    <textarea name="textarea" id="textarea"></textarea>
+
+    <select name="cores" id="cores">
+      <option value="white">branco</option>
+      <option value="#1C6FA4">azul</option>
+      <option value="#CC0E00">vermelho</option>
+    </select> <br />
+
+    <input type="color"> <br />
+    <input type="date"> <br />
+    <input type="number"> <br />
+    <input type="range"> <br />
+    <input type="password"> <br />
+
+    <br /><br />
+
+    <label for="identidade">Anime preferido?</label>
+    
+    <input type="checkbox" value="one piece" name="anime" id="onepiece"> 
+    <span>one piece</span>
+
+    <input type="checkbox" value="gintama" name="anime" id="gintama"> 
+    <span>gintama</span>
+
+    <input type="checkbox" value="haikyu" name="anime" id="haikyu"> 
+    <span>haikyu</span>
+
+    <br /><br />
+    
+    <label for="identidade">Selecione um dos dois</label>
+    <input type="radio" value="guitarra" name="instrumento" id="guitarra"> 
+    <span>guitarra</span>
+    <input type="radio" value="violino" name="instrumento" id="violino"> 
+    <span>violino</span>
+    
+    <br /><br />
+    
+    <button> Mostrar no console </button>
+  </form>
+  <p>valor do target atual: <span class="texto"></span> </p>
+  
+
+  <script src="./js/form.js"></script>
+</body>
+</html>

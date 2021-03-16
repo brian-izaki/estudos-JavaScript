@@ -45,6 +45,7 @@
   - Eventos no JS
   - Transversing
   - Inicio do JS no projeto (animações, efeitos ao scroll, mostrar seções ao clique do mouse)
+  - Forms
 
 - ### Objetos
   Visto os principais objetos que compões o JS como a propriedade prototype que está presente nos objetos, o String, Number, entre outros.
@@ -56,6 +57,7 @@
   - Array
   - Functions
   - Object
+  - Date
 
 - ### Efeitos no DOM
   - Dataset
@@ -68,8 +70,7 @@
   - setTimeout e setInterval
   - Menu Mobile
   - Anima Números
-  - Date Object
-  - Forms
+  - Date no projeto
   - Button Creator HTML e CSS
   - Button Creator JS
   - LocalStorage
