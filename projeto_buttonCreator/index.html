@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <title>Button creator</title>
+</head>
+<body>
+  <section class="styles-container">
+
+    <form id='controles'>
+      <label for="texto">texto</label>
+      <input type="text" value="Altere o texto" name="texto" id="texto">
+
+      <label for="color">color</label>
+      <input type="color" name="color" id="color">
+      
+      <label for="backgroundColor">background-color</label>
+      <input type="color" value="#FFFFFF" name="backgroundColor" id="backgroundColor">
+
+
+      <label for="height">height (%)</label>
+      <input type="range" value="4" name="height" id="height">
+      
+      <label for="width">width (%)</label>
+      <input type="range" value="9" name="width" id="width">
+      
+      <label for="border">border</label>
+      <input type="text" value="2px outset #767676" name="border" id="border">
+
+      <label for="borderRadius">border-radius (%)</label>
+      <input type="range" value="0" name="borderRadius" id="borderRadius">
+      
+      <label for="fontFamily">font-family</label>
+      <select name="fontFamily" id="fontFamily">
+        <option value="Arial">Arial</option>
+        <option value="Georgia">Georgia</option>
+        <option value="monospace">monospace</option>
+      </select>
+
+      <label for="fontSize">font-size (rem)</label>
+      <input type="number" value="0.83" name="fontSize" id="fontSize">
+    </form>
+
+    <section class="resultado">
+      <div class="button-result">
+        <button class="btn">Altere o texto</button>
+      </div>
+
+      <div class="code-result">
+        <pre>
+          <code class="css"></code>
+        </pre>
+      </div>
+
+    </section>
+
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+</html> 
