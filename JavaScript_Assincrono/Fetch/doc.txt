@@ -1,0 +1,2 @@
+Este é um documento salvo no servidor 
+(necessário utilizar o plugin live server (ou xampp) para ser possível visualizar este documento com o fetch)
