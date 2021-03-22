@@ -1,5 +1,9 @@
-# Aulas da Origamid de JavaScript Completo ES6+
+[repo]:https://github.com/brian-izaki/estudos-JavaScript/tree/main
+[dominiciante]:https://github.com/brian-izaki/estudos-JavaScript/tree/main/DOM_iniciantes
 
+
+# Aulas da Origamid de JavaScript Completo ES6+
+[teste](repo/Objetos)
 
 ## JavaScript
 - É uma linguagem interpretada (não precisa de um compilador para executar)
@@ -33,7 +37,7 @@
   - Array;
   - Escopo;
 
-- ### DOM para iniciantes
+- ### [DOM para iniciantes](dominiciante)
   Aprendido os conceitos básicos sobre a árvore do Document Object Model como:
   - O que é o dom
   - Commo selecionar elementos (tags HTML) no DOM
@@ -60,6 +64,7 @@
   - Date
 
 - ### Efeitos no DOM
+  Visto mais sobre como o JS pode interagir com o DOM da página HTML e alguns conceitos sobre o funcionamento dessas interações.
   - Dataset
   - Modules
   - Modal
@@ -71,15 +76,33 @@
   - Menu Mobile
   - Anima Números
   - Date no projeto
-  - Button Creator HTML e CSS
-  - Button Creator JS
-  - LocalStorage
+  - Mini projeto para criar um botão estilizado com css (buttonCreator)
+    - LocalStorage
 
 - ### JavaScript Assíncrono
+  Aprendido sobre o conceito e funcionamento da característica assíncrona do JS.
+  - Introdução
+  - Promises
+  - Fetch API
+  - JSON
+  - API e HTTP
+  - Async, await
+  - History API
 
 - ### Classes
+  Estudado sobre a syntatical sugar Class, e algumas das keywords que funcionam com ela.
+  - Introdução
+  - Get e set
+  - Extends
+  - Plugin para countdown
 
 - ### Mais JavaScript
+  - Function expression
+  - Factory Function
+  - Clojures e Debugging
+  - Destructuring
+  - Rest e spread
+  - Loops e Iterable
 
 - ### Regular Expression
 
