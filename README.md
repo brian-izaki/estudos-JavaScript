@@ -1,9 +1,4 @@
-[repo]:https://github.com/brian-izaki/estudos-JavaScript/tree/main
-[dominiciante]:https://github.com/brian-izaki/estudos-JavaScript/tree/main/DOM_iniciantes
-
-
 # Aulas da Origamid de JavaScript Completo ES6+
-[teste](repo/Objetos)
 
 ## JavaScript
 - É uma linguagem interpretada (não precisa de um compilador para executar)
@@ -28,7 +23,7 @@
 
 *obs: existe um arquivo README para cada conceito estudado nos módulos* <br />
 
-- ### JavaScript para iniciantes
+- ### [JavaScript para iniciantes](JavaScript_Iniciantes/)
   Foi aprendido os conceitos básicos da linguagem como: 
   - Variáveis;
   - Tipos de dados;
@@ -37,7 +32,7 @@
   - Array;
   - Escopo;
 
-- ### [DOM para iniciantes](dominiciante)
+- ### [DOM para iniciantes](DOM_iniciantes/)
   Aprendido os conceitos básicos sobre a árvore do Document Object Model como:
   - O que é o dom
   - Commo selecionar elementos (tags HTML) no DOM
@@ -51,7 +46,7 @@
   - Inicio do JS no projeto (animações, efeitos ao scroll, mostrar seções ao clique do mouse)
   - Forms
 
-- ### Objetos
+- ### [Objetos](Objetos/)
   Visto os principais objetos que compões o JS como a propriedade prototype que está presente nos objetos, o String, Number, entre outros.
   - Funções construtoras
   - Prototype
@@ -63,7 +58,7 @@
   - Object
   - Date
 
-- ### Efeitos no DOM
+- ### [Efeitos no DOM](Efeitos_DOM/)
   Visto mais sobre como o JS pode interagir com o DOM da página HTML e alguns conceitos sobre o funcionamento dessas interações.
   - Dataset
   - Modules
@@ -79,7 +74,7 @@
   - Mini projeto para criar um botão estilizado com css (buttonCreator)
     - LocalStorage
 
-- ### JavaScript Assíncrono
+- ### [JavaScript Assíncrono](JavaScript_Assincrono/)
   Aprendido sobre o conceito e funcionamento da característica assíncrona do JS.
   - Introdução
   - Promises
@@ -89,14 +84,14 @@
   - Async, await
   - History API
 
-- ### Classes
+- ### [Classes](JavaScript_classes)
   Estudado sobre a syntatical sugar Class, e algumas das keywords que funcionam com ela.
   - Introdução
   - Get e set
   - Extends
   - Plugin para countdown
 
-- ### Mais JavaScript
+- ### [Mais JavaScript](Mais_JS)
   - Function expression
   - Factory Function
   - Clojures e Debugging
