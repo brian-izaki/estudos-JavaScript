@@ -70,3 +70,15 @@
   }
   ```
   - Diferente do loop `for` a variável **não se limita** apenas ao escopo do bloco do `while`.
+
+- Também pode ser utilizado o `do` antes de um `while`
+  ```JavaScript
+  let numero = 0;
+
+  do {
+    console.log(numero)
+    numero ++;
+  } while(numero < 20)
+  ```
+  - Mesma funcionalidade que o while sozinho, apenas altera a sintaxe.
+  - O código dentro do bloco do `do` será executado durante os loops.
