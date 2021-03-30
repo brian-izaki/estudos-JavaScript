@@ -13,6 +13,8 @@
       - Na seleção, o email inteiro será capturado, mas dentro dele, terá referências aos grupos selecionados.
       - será criado 2 grupos, um pega antes e o outro pega depois do `@`.
       - o primeiro grupo pode ser visualizado utilizando o `$1` e o segundo `$2`.
+    - também pode não capturar grupo, utilizando o `/(?:a)/` a `?:` serve para que não capture nenhum grupo.
+
   - look ahead:
     - são utilizados dentro do parenteses para fazer uma seleção mais específica.
     - `/(?=ate)/`: **não irá selecionar** os caracteres 'ate', mas irá buscar onde elas se encontram. Para selecionar pode ser passado antes e/ou depois do `()` por exemplo, caso queira selecionar quem estiver pra tras de 'ate' utilize `\w+`.
