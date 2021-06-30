@@ -60,3 +60,5 @@ Todo objeto possui o construtor de Object.
   - `.seal()`: impede **adição e delete** de propriedades mas, permite **alterar**.
 
   - `.preventExtensions()`: impede **adição** de propriedades mas, **permite deletar e alterar**.
+  
+  - `.values(objeto)`: cria um array com os valores dentro do objeto, as chaves desaparecem.
